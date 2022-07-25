@@ -6,15 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Repositorio-Principal-2.0</title>
     <style>
+        body {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
         main {
             display: flex;
-            justify-content: center;
-            width: 600px;
-            height: 600px;
+            justify-content: space-around;
+            width: 100%;
+            height: 100vh;
+            margin: 20px;
             border-radius: 10px;
             border: solid red 2px;
         }
-        section {
+        .seccion-1  {
             text-align: center;
             margin-top: 10px;
             width: 200px;
@@ -22,21 +28,33 @@
             border: 1px blue solid;
             box-shadow: 0 4px 8px;
         }
-        section h1 {
+        .seccion-1 h1 {
             margin-bottom: 20px;
             color: maroon;
             font-weight: bold;
         }
-        section p {
+        .seccion-1 p {
             font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .seccion-2 h2 {
+            padding: 10px;
+            box-shadow: 0 4px 4px;
+            border: solid blue 2px;
+            width: 300px;
+            height: 500px;
+            color: grey;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
     </style>
 </head>
 <body>
     <main>
-        <section>
+        <section class="seccion-1">
             <h1>Este es un repositorio</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo molestias mollitia cum dolor eligendi soluta, molestiae facere corporis error enim minus inventore delectus ullam nulla necessitatibus nisi? Est, repellat reiciendis!</p>
+        </section>
+        <section class="seccion-2">
+            <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae tempore laborum ipsa doloribus architecto praesentium quasi, error explicabo doloremque. Qui, placeat. Architecto officiis ut quis, quaerat rerum esse distinctio nostrum!</h2>
         </section>
     </main>
 </body>
